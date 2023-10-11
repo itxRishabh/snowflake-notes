@@ -1,0 +1,127 @@
+
+<html>
+<head>
+    <title>Welcome to Winter</title>
+    <style>
+        body {
+            background-image: url('https://images.unsplash.com/photo-1485438257538-0f3772bd757a');
+            background-color: #000;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 300px;
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content h1 {
+            font-size: 36px;
+        }
+
+        .content p {
+            font-size: 18px;
+        }
+
+        .content a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        .content a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 16px;
+        }
+
+        
+        @keyframes raindrop {
+            0%, 5% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(100vh);
+            }
+        }
+
+        
+        @keyframes star {
+            0% {
+                opacity: 0;
+                transform: translateY(100vh);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        
+        .snowflake {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 10px solid #bcd2e8; 
+            animation: star 5s linear, snowfall 10s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="raindrop" style="left: 10%; animation-duration: 2s;"></div>
+    <div class="raindrop" style="left: 20%; animation-duration: 3s;"></div>
+    <div class="raindrop" style="left: 30%; animation-duration: 2s;"></div>
+    <div class="raindrop" style="left: 40%; animation-duration: 3s;"></div>
+    <div class="raindrop" style="left: 50%; animation-duration: 2s;"></div>
+    <div class="raindrop" style="left: 60%; animation-duration: 3s;"></div>
+    <div class="raindrop" style="left: 70%; animation-duration: 2s;"></div>
+    <div class="raindrop" style="left: 80%; animation-duration: 3s;"></div>
+    <div class="raindrop" style="left: 90%; animation-duration: 2s;"></div>
+
+    
+    <div class="snowflake" style="left: 10%; animation-duration: 10s;"></div>
+    <div class="snowflake" style="left: 20%; animation-duration: 12s;"></div>
+    <div class="snowflake" style="left: 30%; animation-duration: 9s;"></div>
+    <div class="snowflake" style="left: 40%; animation-duration: 11s;"></div>
+    <div class="snowflake" style="left: 50%; animation-duration: 13s;"></div>
+    <div class="snowflake" style="left: 60%; animation-duration: 10s;"></div>
+    <div class="snowflake" style="left: 70%; animation-duration: 12s;"></div>
+    <div class="snowflake" style="left: 80%; animation-duration: 9s;"></div>
+    <div class="snowflake" style="left: 90%; animation-duration: 11s;"></div>
+
+    <div class="header">
+        <img class="logo" src="https://itxrishabh.com/logo69.png" alt="my Logo">
+    </div>
+    <div class="content">
+        <h1>Welcome to notes by Rishabh Dev</h1>
+        <p>Feel the magic of the first snowfall based notes application</p>
+        <p>For more projects by me, visit <a href="https://www.github.com/itxrishabh">here</a>.</p>
+    </div>
+    <div class="footer">
+        <p>Made by Rishabh Dev in a winter wonderland...</p>
+    </div>
+</body>
+</html>
